@@ -196,12 +196,14 @@ header nav .navbar-brand:hover{
 }
 #experiencia .row .card-item-laboral{
     position: relative;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
+
 #experiencia .row .card-item-laboral h3{
     color: #ffffff;
     position: absolute;
-    top: 25%;
+    font-size: 25px;
+    top: 10%;
     left: 10%;
     right: 10%;
 }
@@ -209,9 +211,9 @@ header nav .navbar-brand:hover{
     position: absolute;
     color: #ffffff;
     font-size: 20px;
-    top: 50%;
+    top: 30%;
     left: 10%;
-    right: 20%;
+    right: 10%;
 }
 #experiencia .row .card-item-laboral .colorear{
     background-image: linear-gradient(
@@ -222,7 +224,7 @@ header nav .navbar-brand:hover{
     height: 300px;
     width: 300px;
     filter: drop-shadow(8px 10px 4px #5c5c5c);
-} 
+}
 /*PORTAFOLIO*/
 #galeria{
     background-image: url(../img/bannerportafolio.png);
