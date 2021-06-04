@@ -155,6 +155,9 @@ header nav .navbar-brand:hover{
     margin-bottom: 100px;
     color: #5c5c5c;
 }
+#estudios #rowcentrado{
+    margin-left: 30%;
+}
 #estudios .list-unstyled .media{
     transition: ease-in-out .4s;
 
@@ -171,7 +174,7 @@ header nav .navbar-brand:hover{
     transform: translateX(10px);
 }
 #estudios .list-unstyled .media .media-body h5{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 30px;
     color: #5c5c5c;
 }
