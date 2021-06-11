@@ -350,6 +350,9 @@ footer p{
     #estudios h2{
         margin-bottom: 50px;
     }
+    #estudios #rowcentrado{
+        margin-left: 10%;
+    }
     #estudios .btn-modalestudios{
         margin-top: 10px;
         margin-bottom: 0px;
@@ -428,6 +431,9 @@ footer p{
     /*ESTUDIOS*/
     #estudios h2{
         margin-bottom: 50px;
+    }
+    #estudios #rowcentrado{
+        margin-left: 0%;
     }
     #estudios .btn-modalestudios{
         margin-top: 10px;
