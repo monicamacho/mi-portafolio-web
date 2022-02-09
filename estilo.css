@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    font-family: 'Electrolize', sans-serif;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    background-image: url(../img/banner.png);
+    height: 100vh;
+    background-size: cover;
+    padding-top: 40px;
+}
+/*MENU*/
+.menu-fijo{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+header nav .navbar-nav .nav-item .nav-link{
+    color: #a4a4a4;
+    font-size: 25px;
+    transition-delay: .3s ease;
+    font-size: 30px;
+}
+header nav .navbar-nav .nav-item .nav-link:hover{
+    color: #5c5c5c;
+    transform: translateY(-5px);
+}
+header nav .navbar-brand {
+    transition: .3s ease-in-out;
+}
+header nav .navbar-brand:hover{
+    filter: contrast(200%);
+}
+/*SLIDE*/
+#carouseltextIndicators{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 20%;
+}
+#carouseltextIndicators .carousel-inner .carousel-item h2{
+    color: #a4a4a4;
+    cursor: default;
+}
+/*SECCION NOMBRE Y CARGO*/
+#info{
+    background-color: #1e344e;
+    width: 100%;
+    padding: 10px;
+}
+#info .imag-info{
+    text-align: center;
+}
+#info .texto-info{
+    text-align: center;
+    color: #a4a4a4;
+    padding: 30px 0px;
+}
+#info .texto-info h2{
+    margin: 0 auto;
+    cursor: default;
+}
+#info .texto-info h1{
+    margin: 0 auto;
+    cursor: default;
+}
+/*SOBRE MI*/
+#sobremi{
+    margin: 80px 0px;
+}
+#sobremi .container .row .col-md-6 img{
+    width: 100%;
+    padding: 20px;
+    filter: drop-shadow(12px 12px 5px #888888);
+}
+#sobremi .container .row .col-md-6 h2{
+    text-align: center;
+    color: #5c5c5c;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    cursor: default;
+}
+#sobremi .container .row .col-md-6 p{
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    color: #5c5c5c;
+    cursor: default;
+}
+/*HABILIDADES*/
+#habilidades{
+    margin: 80px 0px;
+}
+#habilidades h2{
+    text-align: center;
+    margin-bottom: 100px;
+    color: #5c5c5c;
+}
+#habilidades .row .card-item-habil{
+    background-color: #1e344e;
+    border-radius: 2px;
+    padding: 50px 0px;
+    margin: 20px 0px;
+    transition: .3s ease-out;
+}
+#habilidades .row .card-item-habil:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#habilidades .row .card-item-habil h3{
+    text-align: center;
+    color: #a4a4a4;
+    padding: 20px;
+}
+#habilidades .row .card-item-habil .progress{
+    text-align: center;
+    margin: 0px 20px;
+}
+#habilidades .row .card-item-habil-dos{
+    background-color: #5c5c5c;
+    border-radius: 2px;
+    padding: 50px 0px;
+    margin: 20px 0px;
+    transition: .3s ease-out;
+}
+#habilidades .row .card-item-habil-dos:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#habilidades .row .card-item-habil-dos h3{
+    text-align: center;
+    color: #a4a4a4;
+    padding: 20px;
+}
+#habilidades .row .card-item-habil-dos .progress{
+    text-align: center;
+    margin: 0px 20px;
+}
+.bg-progress{
+    background-color: #1e344e;
+}
+/*ESTUDIOS*/
+#estudios{
+    padding: 80px 0px;
+    background-color: #a4a4a4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#estudios h2{
+    text-align: center;
+    margin-bottom: 100px;
+    color: #5c5c5c;
+}
+#estudios #rowcentrado{
+    margin-left: 30%;
+}
+#estudios .list-unstyled .media{
+    transition: ease-in-out .4s;
+
+}
+#estudios .list-unstyled .media:hover{
+    transform: translateX(10px);
+}
+#estudios .list-unstyled .media .media-body h5{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #5c5c5c;
+}
+#estudios .list-unstyled .media:hover{
+    transform: translateX(10px);
+}
+#estudios .list-unstyled .media .media-body h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #5c5c5c;
+}
+#estudios .btn-modalestudios{
+    background-color: #1e344e;
+    color: #a4a4a4;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: .4s;
+}
+#estudios .btn-modalestudios:hover{
+    transform: scale(0.8);
+}
+/*EXPERIENCIA LABORAL*/
+#experiencia{
+    margin: 80px 0px;
+}
+#experiencia h2{
+    margin: 100px 0px;
+    text-align: center;
+    color: #5c5c5c;
+}
+#experiencia .row .card-item-laboral{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#experiencia .row .card-item-laboral h3{
+    color: #ffffff;
+    position: absolute;
+    font-size: 25px;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+}
+#experiencia .row .card-item-laboral p{
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+}
+#experiencia .row .card-item-laboral .psmall{
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+}
+#experiencia .row .card-item-laboral .colorear{
+    background-image: linear-gradient(
+      rgba(30, 52, 78, 0.8), 
+      rgba(30, 52, 78, 0.3)
+    ),
+    url(../img/fondo-laboral.png); 
+    height: 300px;
+    width: 500px;
+    filter: drop-shadow(10px 10px 5px #5c5c5c);
+}
+/*PORTAFOLIO*/
+#galeria{
+    background-image: url(../img/bannerportafolio.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0px;
+}
+#galeria h2{
+    text-align: center;
+    color: #a4a4a4;
+    margin-bottom: 100px;
+}
+#galeria .card{
+    border-width: 0em;
+    transition: all 0.25s;
+}
+#galeria .carousel-inner .carousel-item-active .card {
+    margin: 0 auto;
+}
+
+#galeria .carousel-inner .carousel-item .card{
+    margin: 0 auto;
+}
+#galeria .bg-card-galeria{
+    background-color: #1e344e;
+    color: #a4a4a4;
+}
+/*CONTACTO*/
+#contacto{
+    padding: 20px;
+}
+#contacto h2{
+    text-align: center;
+    margin: 100px 0px;
+    color: #5c5c5c;
+}
+#contacto .row h5{
+    margin-bottom: 20px;
+}
+#contacto .row img{
+    margin: 0 auto;
+}
+/*FOOTER*/
+footer{
+    margin-top: 10px;
+    background-color: #1e344e;
+    padding: 20px 0px;
+}
+footer p{
+    margin: 10px 0px;
+    color: #a4a4a4;
+    font-size: 20px;
+}
+/*BOTON WHATSAPP*/
+.whattsapp{
+    position: fixed;
+    right: 2%;
+    top: 20%;
+    z-index: 999;
+}
+.text-tool{
+    position: absolute;
+    font-size: 15px;
+    top: -5px;
+    right: 110%;
+    color: #009f00;
+}
+/*TABLET*/
+@media screen and (max-width:1000px) and (min-width:768px){
+    /*HEADER*/
+    header{
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    /*SLIDE*/
+    #carouseltextIndicators{
+        position: absolute;
+        top: 22%;
+        bottom: 100%;
+    }
+    /*SLIDE*/
+    #carouseltextIndicators .carousel-inner .carousel-item h2{
+        font-size: 50px;
+    }
+    /*SOBRE MI*/
+    #sobremi .container .row .col-md-6 img{
+        margin-top: 40%;
+        padding: 10px;
+    }
+    #sobremi .container .row .col-md-6 h2{
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    #sobremi .container .row .col-md-6 p{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    /*HABILIDADES*/
+    #habilidades .row{
+        overflow: hidden;
+    }
+    #habilidades .row .card-item-habil{
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+    }
+    #habilidades .row .card-item-habil-dos{
+        padding-bottom: 9999px;
+        margin-bottom: -9999px;
+    }
+    #habilidades .row .card-item-habil-dos h3{
+        font-size: 25px;
+    }
+    #habilidades .row .card-item-habil h3{
+        font-size: 24px;
+    }
+    /*ESTUDIOS*/
+    #estudios h2{
+        margin-bottom: 50px;
+    }
+    #estudios #rowcentrado{
+        margin-left: 10%;
+    }
+    #estudios .btn-modalestudios{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #estudios .list-unstyled .media{
+        margin-top: 80px;
+    }  
+    /*EXPERIENCIA LABORAL*/
+    #experiencia .row .card-item-laboral{
+        display: flex;
+        padding-bottom: 100px;
+    }
+    #experiencia .row .card-item-laboral h3{
+        font-size: 25px;
+    }
+    #experiencia .row .card-item-laboral p{
+        font-size: 15px;
+    }
+    /*PORTAFOLIO*/
+    #galeria .carousel-inner .carousel-item-active .card h3 {
+        font-size: 22px;
+        padding: 0px !important;
+    }
+    #galeria .carousel-inner .carousel-item .card h3{
+        font-size: 22px;
+        padding: 0px!important;
+    }
+    #galeria .carousel-inner .carousel-item-active .card h5 {
+        font-size: 18px;
+        text-align: justify;
+    }
+    #galeria .carousel-inner .carousel-item .card h5{
+        font-size: 18px;
+        text-align: justify;
+    }
+    /*CONTACTO*/
+    #contacto {
+        padding: 0 40px;
+    }
+    #contacto .row .col-md-12 iframe{
+        width: 300px;
+    }
+    /*BOTON WHATSAPP*/
+    .text-tool{
+        font-size: 30px;
+        right: 130%;
+    }
+}
+/*CELULAR*/
+@media screen and (max-width:767px) and (min-width:320px){
+    /*HEADER*/
+    header{
+        background-image: url(../img/bannermovil.png);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    /*SLIDE*/
+    #carouseltextIndicators{
+        position: absolute;
+        top: 30%;
+        bottom: 100%;
+    }
+    #carouseltextIndicators .carousel-inner .carousel-item h2{
+        color: #a4a4a4;
+        cursor: default;
+        font-size: 30px;
+    }
+    /*NOMBRE Y CARGO*/
+    #info .texto-info h2{
+       font-size: 20px;
+    }
+    #info .texto-info h1{
+        font-size: 35px;
+    }
+    /*ESTUDIOS*/
+    #estudios h2{
+        margin-bottom: 50px;
+    }
+    #estudios #rowcentrado{
+        margin-left: 0%;
+    }
+    #estudios .btn-modalestudios{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #estudios .list-unstyled .media{
+        margin-top: 80px;
+    }  
+    /*EXPERIENCIA LABORAL*/
+    #experiencia .row{
+        text-align:center;
+    }
+    #experiencia .row .card-item-laboral{
+        display: inline-block;
+    }
+    /*CONTACTO*/
+    #contacto {
+        padding: 0 40px;
+        text-align: center;
+    }
+    #contacto .row h5{
+        font-size: 18px;
+    }
+    #contacto .row .col-md-12 iframe{
+        width: 250px;
+    }
+    #contacto .row img{
+        margin-top: 30px;
+        width: 80%;
+    }
+    /*BOTON WHATSAPP*/
+    .text-tool{
+        font-size: 25px;
+        top: -30px;
+        right: 10%;
+    }
+}
